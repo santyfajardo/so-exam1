@@ -1,9 +1,9 @@
 # Parcial 1
 
-**Nombre:** Santiago Fajardo  
-**Código:** A00328044
-**Curso:** Sistemas Operativos
-**Correo:** santiago_fajardo96@hotmail.com
+### **Nombre:** Santiago Fajardo  
+### **Código:** A00328044
+### **Curso:** Sistemas Operativos
+### **Correo:** santiago_fajardo96@hotmail.com
 
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se ve como instalar una imagen en virtual box.
@@ -13,6 +13,7 @@ En este repositorio encontrarás el parcial 1, en donde se ve como instalar una 
 ### Descarga y Verificacion
 1. Se descarga MD5 de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html para realizar la verificacion del cheksum.
 2. Se crea la maquina virtual, configurando la red, y estableciendo como imagen la descargada anteriormente.
+
 
 # Diferencias y similitudes Centos vs Debian
 
