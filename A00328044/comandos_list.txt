@@ -9,3 +9,42 @@
     9  exit
    10  exit
    11  history > comandos_list.txt 
+   12  cat comandos_list.txt 
+   13  ls
+   14  exit
+   15  cd Documentos/
+   16  git clone https://github.com/santyfajardo/so-exam1.git
+   17  ls
+   18  cd so-exam1/
+   19  ls
+   20  git branch -a
+   21  git checkout santyfajardo/so-exam1
+   22  git branch -a
+   23  cd ..
+   24  ls
+   25  mv comandos_list.txt so-exam1/A00328044/
+   26  git add all
+   27  git add --all
+   28  cd so-exam1/
+   29  git add --all
+   30  git commit -m "Move command_list to A00328044"
+   31  git config --global user.email "santiago_fajardo96@hotmail.com"
+   32  git commit -m "Move command_list to A00328044"
+   33  tig
+   34  tig
+   35  git push origin santyfajardo/so-exam1
+   36  cd ..
+   37  cd ..
+   38  uname
+   39  uname -a
+   40  uname -o
+   41  uname -m
+   42  history
+   43  ls
+   44  cd Documentos/
+   45  ls
+   46  cd so-exam1/
+   47  ls
+   48  cd A00328044/
+   49  ls
+   50  history > comandos_list.txt
