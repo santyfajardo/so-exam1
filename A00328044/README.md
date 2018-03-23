@@ -45,7 +45,7 @@ En este repositorio encontrarás el parcial 1, en donde se ve como instalar una 
 - 31.9% del mercado
 - Se considera para expertos de linux
 
-#Informacion de sistema operativo
+# Informacion de sistema operativo
 
 ```
 root@debian:/home/santiago# uname
