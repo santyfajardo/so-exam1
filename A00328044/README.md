@@ -5,3 +5,34 @@
 
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se ve como instalar una imagen en virtual box.
+
+## Procedimiento
+
+###Descarga y Verificacion
+1.Se descarga MD5 de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html para realizar la verificacion del cheksum.
+2.Se crea la maquina virtual, configurando la red, y estableciendo como imagen la descargada anteriormente.
+
+##Diferencias y similitudes Centos vs Debian
+
+##Similitudes
+-equipos de sobremesa
+-compatibles con instalaciones de servidor minimas
+-
+###Centos
+-Clon de una de las distribuciones comerciales mas estables
+-Estable, dificil que te de problemas
+-Facil instalacion de sofware especifico que no esta diseñado para debian
+-Respaldo de RED HAT
+-Compatibilidad con los bianrios de las aplicaciones desarrolladas para RHEL
+-No se ejecuta en tantas arquitecturas
+
+
+###Debian
+-Distribucion libre, manejada por la comunidad
+-Mas estable de GNU/Linux
+-Disponibilidad de versiones mas recientes
+-Sin acceso al servidor
+-Actualizaciones se haran via ssh
+-Tiene mas paquetes
+-Contaccion social
+-Mayor cantidad de usuarios en el servidor
