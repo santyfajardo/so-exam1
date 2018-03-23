@@ -2,6 +2,8 @@
 
 **Nombre:** Santiago Fajardo  
 **Código:** A00328044
+**Curso:** Sistemas Operativos
+**Correo:** santiago_fajardo96@hotmail.com
 
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se ve como instalar una imagen en virtual box.
