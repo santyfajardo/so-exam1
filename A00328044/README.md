@@ -45,3 +45,21 @@ En este repositorio encontrarás el parcial 1, en donde se ve como instalar una 
 - 31.9% del mercado
 - Se considera para expertos de linux
 
+#Informacion de sistema operativo
+
+```
+root@debian:/home/santiago# uname
+Linux
+```
+```
+root@debian:/home/santiago# uname -a
+Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU/Linux
+```
+```
+root@debian:/home/santiago# uname -o
+GNU/Linux
+```
+```
+root@debian:/home/santiago# uname-m
+x86_64
+```
