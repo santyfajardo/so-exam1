@@ -1,0 +1,11 @@
+    1  apt-get update
+    2  ls
+    3  apt-get upgrade
+    4  apt-get install git-core
+    5  apt-get install tig
+    6  ip a
+    7  ip a
+    8  ping 8.8.8.8
+    9  exit
+   10  exit
+   11  history > comandos_list.txt 
