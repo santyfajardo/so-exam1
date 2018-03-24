@@ -1,18 +1,21 @@
+![Banner Icesi](https://www.mineducacion.gov.co/cvn/1665/propertyvalues-43922_banner.jpg)
+
+
 # Parcial 1
 
-### **Nombre:** Santiago Fajardo  
-### **Código:** A00328044
-### **Curso:** Sistemas Operativos
-### **Correo:** santiago_fajardo96@hotmail.com
+**Nombre:** Santiago Fajardo  
+**Código:** A00328044  
+**Curso:** Sistemas Operativos  
+**Correo:** santiago_fajardo96@hotmail.com
 
 ## Descripción
-En este repositorio encontrarás el parcial 1, en donde se ve como instalar una imagen en virtual box.
-
-## Procedimiento
+En este repositorio encontrarás el parcial 1, en donde se instala una imagen del sistema operativo Debian en virtual box, además la configuración de PuttyTabs.
 
 ### Descarga y Verificacion
 1. Se descarga MD5 de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html para realizar la verificacion del cheksum.
-2. Se crea la maquina virtual, configurando la red, y estableciendo como imagen la descargada anteriormente.
+2. Se ingresa a http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS para obtener el checksum que debemos verificar (corresponde al primero de los tres).
+3. Se ingresa en el campo correspondiente y se verifica.
+
 
 
 # Diferencias y similitudes Centos vs Debian
