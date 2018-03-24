@@ -11,12 +11,80 @@
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se instala una imagen del sistema operativo Debian en virtual box, además la configuración de PuttyTabs.
 
-### 1) Descarga y Verificacion
+## Punto 3 
+
+### Descarga y Verificacion
 1. Se descarga MD5 de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html para realizar la verificacion del cheksum.
 2. Se ingresa a http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS para obtener el checksum que debemos verificar (corresponde al primero de los tres).
 3. Se ingresa en el campo correspondiente y se verifica.  
 
 ![](Images/verificacion.png)
+
+## Punto 4
+
+### Instalación
+1. Abrir virtual box
+2. Oprimir Nueva
+3. Nombre --> Debian (lo demas cambia automaticamente9
+4. Seleccionar tamaño de memoria (1024 MB)
+5. Crear un disco virtual ahora
+6. VDI
+7. Reservado dinámicamente
+8. Tamaño del archivo (8 GB)
+9. Configruración de la maquina
+10. Red / Adaptador 2 / Habilitar adapador de red / Conectado a Adaptador puente
+11. Almacenamiento / Controlador / Unidad Optica / Seleccionar imagen descargada
+12. Aceptar (maquina creada)
+13. Correr la maquina y seguir la configuracion guiada
+
+### Información del sistema
+
+
+```
+root@debian:/home/santiago# uname
+Linux
+```
+```
+root@debian:/home/santiago# uname -a
+Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU/Linux
+```
+```
+root@debian:/home/santiago# uname -o
+GNU/Linux
+```
+```
+root@debian:/home/santiago# uname-m
+x86_64
+```
+![](Images/uname.png)
+
+## Punto 5
+
+### Instalación de putty
+
+1. Descargar putty https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe (64 bits) https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe (32 bits)
+2. Descargar MTPuTTY http://ttyplus.com/download/mtputty.exe
+3. Correr MTPuTTY
+4. Server / Add server
+5. En virtual box correr el comando **ip a**
+6. La ip obtenida será el server name
+7. SSH
+8. Port --> 22
+9. username (el mismo con que se configuró la maquina virtual)
+10 password (la que se escribio en la configuración)
+11. Correrla darle si (Termino la configuración)
+
+## Punto 6
+
+### Paso 1 (apt-get update)
+![](Images/1.png)
+### Paso 2 (apt-get upgrade)
+![](Images/2.png)
+### Paso 3 (apt-get git-core)
+
+
+
+
 
 
 # Diferencias y similitudes Centos vs Debian
