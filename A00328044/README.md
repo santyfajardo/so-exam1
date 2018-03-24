@@ -14,8 +14,8 @@ En este repositorio encontrarás el parcial 1, en donde se instala una imagen de
 ## Punto 3 
 
 ### Descarga y Verificacion
-1. Se descarga MD5 de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html para realizar la verificacion del cheksum.
-2. Se ingresa a http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS para obtener el checksum que debemos verificar (corresponde al primero de los tres).
+1. Se descarga [MD5](http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html) para realizar la verificacion del cheksum.
+2. Se ingresa a [aqui](http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS) para obtener el checksum que debemos verificar (corresponde al primero de los tres).
 3. Se ingresa en el campo correspondiente y se verifica.  
 
 ![](Images/verificacion.png)
@@ -40,30 +40,15 @@ En este repositorio encontrarás el parcial 1, en donde se instala una imagen de
 ### Información del sistema
 
 
-```
-root@debian:/home/santiago# uname
-Linux
-```
-```
-root@debian:/home/santiago# uname -a
-Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU/Linux
-```
-```
-root@debian:/home/santiago# uname -o
-GNU/Linux
-```
-```
-root@debian:/home/santiago# uname-m
-x86_64
-```
 ![](Images/uname.png)
+
 
 ## Punto 5
 
 ### Instalación de putty
 
-1. Descargar putty https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe (64 bits) https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe (32 bits)
-2. Descargar MTPuTTY http://ttyplus.com/download/mtputty.exe
+1. Descargar putty [64 bits](https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe)  o [32 bits](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe) 
+2. Descargar [MTPuTTY](http://ttyplus.com/download/mtputty.exe)
 3. Correr MTPuTTY
 4. Server / Add server
 5. En virtual box correr el comando **ip a**
@@ -79,23 +64,34 @@ x86_64
 ### Paso 1 (apt-get update)
 ![](Images/1.png)
 ### Paso 2 (apt-get upgrade)
-![](Images/2.png)
+![](Images/upgrade.png)
 ### Paso 3 (apt-get git-core)
+![](Images/2.png)
+![](Images/3.png)
+![](Images/4.png)
+### Paso 4 (apt-get install tig)
+![](Images/5.png)
+
+### Evidencia de tig
+
+![](Images/tig.png)
+
+## Punto 7 
+
+(realizar en sala de computo)
+
+## Punto 8
 
 
+## Diferencias y similitudes Centos vs Debian
 
+### Similitudes
+- Equipos de sobremesa
+- Compatibles con instalaciones de servidor minimas
 
+### Diferencias
 
-
-# Diferencias y similitudes Centos vs Debian
-
-## Similitudes
-- equipos de sobremesa
-- compatibles con instalaciones de servidor minimas
-
-## Diferencias
-
-### Centos
+#### Centos
 - Clon de una de las distribuciones comerciales mas estables
 - Estable, dificil que te de problemas
 - Facil instalacion de sofware especifico que no esta diseñado para debian
@@ -107,7 +103,7 @@ x86_64
 - Preferido por empresas
 
 
-### Debian
+#### Debian
 - Distribucion libre, manejada por la comunidad
 - Mas estable de GNU/Linux
 - Disponibilidad de versiones mas recientes
@@ -120,21 +116,3 @@ x86_64
 - 31.9% del mercado
 - Se considera para expertos de linux
 
-# Informacion de sistema operativo
-
-```
-root@debian:/home/santiago# uname
-Linux
-```
-```
-root@debian:/home/santiago# uname -a
-Linux debian 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64 GNU/Linux
-```
-```
-root@debian:/home/santiago# uname -o
-GNU/Linux
-```
-```
-root@debian:/home/santiago# uname-m
-x86_64
-```
