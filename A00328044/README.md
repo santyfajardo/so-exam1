@@ -39,6 +39,41 @@ En este repositorio encontrarás el parcial 1, en donde se instala una imagen de
 
 ### Información del sistema
 
+```
+uname Muestra información del sistema
+```
+
+
+```
+uname -s Muestra el nombre del sistema.
+```
+
+```
+uname -n Muestra el nombre por el que se identifica el sistema en la red (el FQDN)
+```
+
+```
+uname -a Muestra toda la información sobre el tipo de sistema que se esta utilizando.
+```
+
+```
+uname -m Muestra el tipo de arquitectura que se esta utilizando.
+```
+
+```
+uname -r Muestra información sobre el kernel.
+```
+
+```
+uname -v Muestra información sobre la versión del Sistema Operativo.
+```
+
+```
+uname -p Muestra información sobre el procesador.
+```
+
+
+
 ![](Images/informacion.png)
 
 ## Punto 5
