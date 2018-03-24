@@ -39,9 +39,7 @@ En este repositorio encontrarás el parcial 1, en donde se instala una imagen de
 
 ### Información del sistema
 
-
-![](Images/uname.png)
-
+![](Images/informacion.png)
 
 ## Punto 5
 
