@@ -11,11 +11,12 @@
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se instala una imagen del sistema operativo Debian en virtual box, además la configuración de PuttyTabs.
 
-### Descarga y Verificacion
+### 1) Descarga y Verificacion
 1. Se descarga MD5 de http://download.cnet.com/MD5-SHA-Checksum-Utility/3001-2092_4-10911445.html para realizar la verificacion del cheksum.
 2. Se ingresa a http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS para obtener el checksum que debemos verificar (corresponde al primero de los tres).
-3. Se ingresa en el campo correspondiente y se verifica.
+3. Se ingresa en el campo correspondiente y se verifica.  
 
+![](Images/verificacion.png)
 
 
 # Diferencias y similitudes Centos vs Debian
