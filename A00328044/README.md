@@ -11,6 +11,7 @@
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se instala una imagen del sistema operativo Debian en virtual box, además la configuración de PuttyTabs.  
 Podras encontrar el repositorio en la siguiente URL: https://github.com/santyfajardo/so-exam1.git 
+Atención: Para ver la lista de comandos ver el archivo Command_List.txt
 
 ## Punto 3 
 
@@ -91,7 +92,13 @@ uname -p Muestra información sobre el procesador.
 8. Port --> 22
 9. username (el mismo con que se configuró la maquina virtual)
 10 password (la que se escribio en la configuración)
-11. Correrla darle si (Termino la configuración)
+11. Correrla darle si (Termino la configuración) 
+
+
+
+ATTENCIÓN: La prueba de que Putty funcionó, se evidencia junto a la captura de pantalla para mostrar que tig funciono.
+
+
 
 ## Punto 6
 
