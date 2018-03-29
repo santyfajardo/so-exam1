@@ -10,7 +10,8 @@
 
 ## Descripción
 En este repositorio encontrarás el parcial 1, en donde se instala una imagen del sistema operativo Debian en virtual box, además la configuración de PuttyTabs.  
-Podras encontrar el repositorio en la siguiente URL: https://github.com/santyfajardo/so-exam1.git 
+Podras encontrar el repositorio en la siguiente URL: https://github.com/santyfajardo/so-exam1.git  
+
 Atención: Para ver la lista de comandos ver el archivo Command_List.txt
 
 ## Punto 3 
