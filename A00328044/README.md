@@ -120,7 +120,18 @@ ATTENCIÓN: La prueba de que Putty funcionó, se evidencia junto a la captura de
 
 ## Punto 7 
 
-(realizar en sala de computo)
+![](Images/11e.PNG)
+![](Images/12e.PNG)
+![](Images/13e.PNG)
+![](Images/14e.PNG)
+![](Images/15e.PNG)
+![](Images/16e.PNG)
+![](Images/1e.PNG)
+![](Images/2e.PNG)
+![](Images/3e.PNG)
+![](Images/4e.PNG)
+![](Images/5e.PNG)
+
 
 ## Punto 8
 
